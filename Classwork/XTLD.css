@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.Logo{
+    font-size: 32px;
+    font-weight: bold ;
+    color: black;
+    text-decoration: none ;
+}
+
+.navlinks a{
+margin: 8px;
+text-decoration: none;
+color: black;
+font-size: 18px;
+font-weight: bold;
+}
+
+section{
+        display: flex;
+    margin-top: 64px;
+}
+
+.left {
+    width: 488px;
+    height: 403px;
+    margin-right: 40px;
+}
+
+img{
+    width: 486px;
+    height: 401px;
+    border-radius: 16px;
+    padding: 5px;
+}
+.rain{
+font-weight: bold;
+font-size: 40px;
+margin-bottom: 34px;
+}
+
+.sub{
+    margin-bottom: 20px;
+}
+
+.sub2{
+    margin-bottom: 20px;
+}
+
+.ark{
+    background-color: aquamarine;  
+    border-radius: 16px; 
+    padding: 20px 20px 153px 20px
+    ; 
+}
+
+.form{
+    background-color: azure;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    font-weight: bold;
+    padding: 50px;
+    margin: 10px 250px;
+}
+
+.name{
+    margin-bottom: 10px;
+    margin-left: 35px
+}
+.phone{
+margin-bottom: 10px;
+margin-left: 30px
+}
+.email{
+margin-bottom: 10px;
+margin-left: 35px
+}
+.date{
+margin-bottom: 10px;
+margin-left: 40px;
+}
+.password{
+margin-bottom: 10px;
+}
+
+.submit{
+    font-size: large;
+}
